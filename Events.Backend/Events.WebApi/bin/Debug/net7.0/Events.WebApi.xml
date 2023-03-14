@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Events.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Events.WebApi.Controllers.EventController.GetAll">
+            <summary>
+            Gets the list of events
+            </summary>
+            <remarks>
+            GET /event/events
+            </remarks>
+            <returns>Returns EventListVm</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:Events.WebApi.Controllers.EventController.Create(Events.WebApi.Models.CreateEventDto)">
+            <summary>
+            Creates the event
+            </summary>
+            <remarks>
+            Sample request:
+            POST /event
+            {
+                title: "event title",
+                Description: "event Description",
+                StartDateTime: "event StartDateTime",
+                EndDateTime: "event EndDateTime",
+                ImageId: "event ImageId",
+                SpaceId: "event SpaceId"
+            }
+            </remarks>
+            <param name="createEventDto">CreateEventDto object</param>
+            <returns>Returns id (guid)</returns>
+            <response code="201">Success</response>
+            <response code="404">Bad request</response>
+        </member>
+        <member name="M:Events.WebApi.Controllers.EventController.Update(Events.WebApi.Models.UpdateEventDto)">
+            <summary>
+            Updates the event
+            </summary>
+            <remarks>
+            Sample request:
+            PUT /event
+            {
+                title: "update event title",
+                Description: "update event Description",
+                StartDateTime: "update event StartDateTime",
+                EndDateTime: "update event EndDateTime",
+                ImageId: "update event ImageId",
+                SpaceId: "update event SpaceId"
+            }
+            </remarks>
+            <param name="updateEventDto">UpdateNoteDto object</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="404">Bad request</response>
+        </member>
+        <member name="M:Events.WebApi.Controllers.EventController.Delete(System.Guid)">
+            <summary>
+            Deletes the event by id
+            </summary>
+            <remarks>
+            Sample request:
+            DELETE /event/88DEB432-062F-43DE-8DCD-8B6EF79073D3
+            </remarks>
+            <param name="id">Id of the event (guid)</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="404">Bad request</response>
+        </member>
+    </members>
+</doc>

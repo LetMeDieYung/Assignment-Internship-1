@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Events.Application.Interfaces;
+using Events.Domain;
+using Events.Persistence.EntityTypeConfigurations;
+namespace Events.Persistence
+{
+    public class EventsDbContext : DbContext, IEventsDbContext
+    {
+        public DbSet<Event> Events { get; set; }
+
+        public EventsDbContext(DbContextOptions<EventsDbContext> options) : base(options) { }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.ApplyConfiguration(new EventConfiguration());
+            base.OnModelCreating(builder); 
+        }
+    }
+}
