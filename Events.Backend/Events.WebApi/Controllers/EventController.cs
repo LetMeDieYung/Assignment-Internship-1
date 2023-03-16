@@ -8,6 +8,8 @@ using Events.Application.Events.Commands.UpdateEvent;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Update.Internal;
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
 
 namespace Events.WebApi.Controllers
 {
@@ -121,6 +123,7 @@ namespace Events.WebApi.Controllers
             await Mediator.Send(command);
             return NoContent();
         }
-
+        
+        
     }
 }

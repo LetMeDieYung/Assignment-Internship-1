@@ -249,3 +249,5 @@ C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.We
 C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.WebApi\obj\Debug\net7.0\Events.WebApi.pdb
 C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.WebApi\obj\Debug\net7.0\Events.WebApi.genruntimeconfig.cache
 C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.WebApi\obj\Debug\net7.0\ref\Events.WebApi.dll
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.WebApi\bin\Debug\net7.0\MongoDB.Bson.dll
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll

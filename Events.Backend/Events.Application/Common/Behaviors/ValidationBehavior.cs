@@ -30,6 +30,7 @@ namespace Events.Application.Common.Behaviors
             }
             return next();
         }
+        
 
         public Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
