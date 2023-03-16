@@ -15,15 +15,11 @@ namespace Events.WebApi
             using (var scope = host.Services.CreateScope())
             {
                 var serviceProvider = scope.ServiceProvider;
-                try
-                {
+                
                     var context = serviceProvider.GetRequiredService<EventsDbContext>();
                     DbInitializer.Initialize(context);
-                }
-                catch (Exception exception)
-                {
-                    
-                }
+                
+                
             }
 
             host.Run();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MiGkg1x9LCG8kvuXyFTX8smwO43YU79kbFNYV3j8AbvaE/UL0t7GRKnfKPml/qaZaQQTklOL1UFPD4wDHF1pjA==",
+  "dgSpecHash": "BFBtaK3KzfWpYgmzmpJ4t9mpm2O7npmIEwXlSA67QvzUrfpfgZLN0hgZ4C+HzhtMj7W5Omc2U2nZW24FpYUI7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akadz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",

@@ -16,5 +16,6 @@ namespace Events.Application.Events.Commands.CreateEvent
         public string? Description { get; set; }
         public Guid ImageId { get; set; }
         public Guid SpaceId { get; set; }
+        public int Tickets { get; set; }
     }
 }

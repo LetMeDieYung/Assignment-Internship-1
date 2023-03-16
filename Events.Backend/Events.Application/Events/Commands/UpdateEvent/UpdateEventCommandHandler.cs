@@ -34,6 +34,7 @@ namespace Events.Application.Events.Commands.UpdateEvent
             entity.SpaceId = request.SpaceId;
             entity.StartDateTime = request.StartDateTime;
             entity.EndDateTime = request.EndDateTime;
+            entity.Tickets = request.Tickets;
 
             await _dbContext.SaveChangesAsync(cancellationToken);
             return Unit.Value;

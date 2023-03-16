@@ -50,7 +50,8 @@ namespace Events.WebApi.Controllers
         ///     StartDateTime: "event StartDateTime",
         ///     EndDateTime: "event EndDateTime",
         ///     ImageId: "event ImageId",
-        ///     SpaceId: "event SpaceId"
+        ///     SpaceId: "event SpaceId",
+        ///     Tickets: "Quantity event Tickets"
         /// }
         /// </remarks>
         /// <param name="createEventDto">CreateEventDto object</param>
@@ -79,7 +80,8 @@ namespace Events.WebApi.Controllers
         ///     StartDateTime: "update event StartDateTime",
         ///     EndDateTime: "update event EndDateTime",
         ///     ImageId: "update event ImageId",
-        ///     SpaceId: "update event SpaceId"
+        ///     SpaceId: "update event SpaceId",
+        ///     Tickets: "update Quantity event Tickets"
         /// }
         /// </remarks>
         /// <param name="updateEventDto">UpdateNoteDto object</param>
