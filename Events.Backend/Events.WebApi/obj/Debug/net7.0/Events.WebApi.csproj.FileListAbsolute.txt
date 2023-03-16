@@ -156,3 +156,10 @@ C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\obj\Debug\net7.0\Events.WebA
 C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\obj\Debug\net7.0\Events.WebApi.pdb
 C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\obj\Debug\net7.0\Events.WebApi.genruntimeconfig.cache
 C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\obj\Debug\net7.0\ref\Events.WebApi.dll
+C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\akadz\Desktop\Events.Backend\Events.WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
