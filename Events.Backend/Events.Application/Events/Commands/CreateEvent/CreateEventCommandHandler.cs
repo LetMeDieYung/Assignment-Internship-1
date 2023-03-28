@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 using Events.Domain;
 using Events.Application.Interfaces;
 namespace Events.Application.Events.Commands.CreateEvent
@@ -26,8 +21,9 @@ namespace Events.Application.Events.Commands.CreateEvent
                 ImageId = request.ImageId,
                 SpaceId = request.SpaceId,
                 StartDateTime = request.StartDateTime,
-                EndDateTime = request.EndDateTime
-            };
+                EndDateTime = request.EndDateTime,
+                Tickets = request.Tickets
+    };
 
             await _dbContext.Events.AddAsync(newEvent, cancellationToken);
             await _dbContext.SaveChangesAsync(cancellationToken);

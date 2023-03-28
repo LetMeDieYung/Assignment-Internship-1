@@ -1,8 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 using FluentValidation;
 
 namespace Events.Application.Common.Behaviors
@@ -30,6 +26,7 @@ namespace Events.Application.Common.Behaviors
             }
             return next();
         }
+        
 
         public Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {

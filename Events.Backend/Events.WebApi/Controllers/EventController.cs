@@ -1,12 +1,11 @@
 ﻿using AutoMapper;
 using Events.Application.Events.Quaries.GetEventList;
 using Events.WebApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Events.Application.Events.Commands.CreateEvent;
 using Events.Application.Events.Commands.DeleteCommand;
 using Events.Application.Events.Commands.UpdateEvent;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Update.Internal;
 
 namespace Events.WebApi.Controllers
 {
@@ -24,7 +23,9 @@ namespace Events.WebApi.Controllers
         /// </remarks>
         /// <returns>Returns EventListVm</returns>
         /// <response code="200">Success</response>
+        [AllowAnonymous]
         [HttpGet("events")]
+        [Authorize]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<EventListVm>> GetAll()
         {
@@ -47,14 +48,17 @@ namespace Events.WebApi.Controllers
         ///     StartDateTime: "event StartDateTime",
         ///     EndDateTime: "event EndDateTime",
         ///     ImageId: "event ImageId",
-        ///     SpaceId: "event SpaceId"
+        ///     SpaceId: "event SpaceId",
+        ///     Tickets: "Quantity event Tickets"
         /// }
         /// </remarks>
         /// <param name="createEventDto">CreateEventDto object</param>
         /// <returns>Returns id (guid)</returns>
         /// <response code="201">Success</response>
         /// <response code="404">Bad request</response>
+        [AllowAnonymous]
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Guid>> Create([FromBody] CreateEventDto createEventDto)
         {
             var command = _mapper.Map<CreateEventCommand>(createEventDto);
@@ -74,14 +78,17 @@ namespace Events.WebApi.Controllers
         ///     StartDateTime: "update event StartDateTime",
         ///     EndDateTime: "update event EndDateTime",
         ///     ImageId: "update event ImageId",
-        ///     SpaceId: "update event SpaceId"
+        ///     SpaceId: "update event SpaceId",
+        ///     Tickets: "update Quantity event Tickets"
         /// }
         /// </remarks>
         /// <param name="updateEventDto">UpdateNoteDto object</param>
         /// <returns>Returns NoContent</returns>
         /// <response code="204">Success</response>
         /// <response code="404">Bad request</response>
+        [AllowAnonymous]
         [HttpPut]
+        [Authorize]
         public async Task<IActionResult> Update([FromBody] UpdateEventDto updateEventDto)
         {
             var command = _mapper.Map<UpdateEventCommand>(updateEventDto);
@@ -100,7 +107,9 @@ namespace Events.WebApi.Controllers
         /// <returns>Returns NoContent</returns>
         /// <response code="204">Success</response>
         /// <response code="404">Bad request</response>
+        [AllowAnonymous]
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> Delete(Guid id)
         {
             var command = new DeleteEventCommand
@@ -110,6 +119,7 @@ namespace Events.WebApi.Controllers
             await Mediator.Send(command);
             return NoContent();
         }
-
+        
+        
     }
 }

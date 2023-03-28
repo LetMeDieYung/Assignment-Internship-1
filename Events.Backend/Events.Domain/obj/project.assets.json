@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
       "projectName": "Events.Domain",
-      "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
+      "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
       "packagesPath": "C:\\Users\\akadz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\obj\\",
+      "outputPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akadz\\AppData\\Roaming\\NuGet\\NuGet.Config",

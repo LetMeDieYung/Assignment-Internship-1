@@ -22,3 +22,15 @@ C:\Users\akadz\Desktop\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Doma
 C:\Users\akadz\Desktop\Events.Backend\Events.Domain\obj\Debug\net7.0\refint\Events.Domain.dll
 C:\Users\akadz\Desktop\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Domain.pdb
 C:\Users\akadz\Desktop\Events.Backend\Events.Domain\obj\Debug\net7.0\ref\Events.Domain.dll
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\bin\Debug\net7.0\Events.Domain.deps.json
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\bin\Debug\net7.0\Events.Domain.dll
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\bin\Debug\net7.0\Events.Domain.pdb
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Domain.csproj.AssemblyReference.cache
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Domain.AssemblyInfoInputs.cache
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Domain.AssemblyInfo.cs
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Domain.csproj.CoreCompileInputs.cache
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Domain.dll
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\refint\Events.Domain.dll
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\Events.Domain.pdb
+C:\Users\akadz\Documents\GitHub\Assignment-Internship-1\Events.Backend\Events.Domain\obj\Debug\net7.0\ref\Events.Domain.dll

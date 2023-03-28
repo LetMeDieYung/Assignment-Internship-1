@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.WebApi\\Events.WebApi.csproj": {}
+    "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.WebApi\\Events.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\Events.Application.csproj": {
+    "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\Events.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\Events.Application.csproj",
+        "projectUniqueName": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\Events.Application.csproj",
         "projectName": "Events.Application",
-        "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\Events.Application.csproj",
+        "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\Events.Application.csproj",
         "packagesPath": "C:\\Users\\akadz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\obj\\",
+        "outputPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akadz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\Events.Domain.csproj": {
-                "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\Events.Domain.csproj"
+              "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\Events.Domain.csproj": {
+                "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\Events.Domain.csproj"
               }
             }
           }
@@ -59,10 +59,6 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.0.1, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -101,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\Events.Domain.csproj": {
+    "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\Events.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
         "projectName": "Events.Domain",
-        "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
+        "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
         "packagesPath": "C:\\Users\\akadz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\obj\\",
+        "outputPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akadz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj": {
+    "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj",
         "projectName": "Events.Persistence",
-        "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj",
+        "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj",
         "packagesPath": "C:\\Users\\akadz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akadz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -180,8 +176,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\Events.Application.csproj": {
-                "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\Events.Application.csproj"
+              "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\Events.Application.csproj": {
+                "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\Events.Application.csproj"
               }
             }
           }
@@ -215,14 +211,14 @@
         }
       }
     },
-    "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.WebApi\\Events.WebApi.csproj": {
+    "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.WebApi\\Events.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.WebApi\\Events.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.WebApi\\Events.WebApi.csproj",
         "projectName": "Events.WebApi",
-        "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.WebApi\\Events.WebApi.csproj",
+        "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.WebApi\\Events.WebApi.csproj",
         "packagesPath": "C:\\Users\\akadz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akadz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -239,11 +235,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\Events.Application.csproj": {
-                "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\Events.Application.csproj"
+              "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\Events.Application.csproj": {
+                "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\Events.Application.csproj"
               },
-              "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj": {
-                "projectPath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj"
+              "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj": {
+                "projectPath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Persistence\\Events.Persistence.csproj"
               }
             }
           }
@@ -265,6 +261,18 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

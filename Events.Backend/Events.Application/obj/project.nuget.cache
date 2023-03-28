@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "jL3bqGvOF2thdJL2ZNeGoTUMp6yjrNiToJNcsdOL2cuduPRD+DBM/EEPsUpyz0Elm+SSMvROUEw/O6Hgs4iv+A==",
+  "dgSpecHash": "qYn7mshJ+803JMN3X5H/5YUzyISB2G1TcY7s2y1V6DYUW+cUTQLVGjemyJPoatVGm41VHn4pw5qvXjT5OuJYYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Application\\Events.Application.csproj",
+  "projectFilePath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Application\\Events.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akadz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\akadz\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.3\\microsoft.data.sqlite.core.7.0.3.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
@@ -37,16 +36,5 @@
     "C:\\Users\\akadz\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\akadz\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.0.1 was resolved.",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

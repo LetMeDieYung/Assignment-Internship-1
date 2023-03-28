@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jHwr2zCEuhwLTnieTvWwWEmbLw9Fa0i7ZzpIT8WcWQYspfPf8GjGd/iLxS8PyRSxaPc5YsHcLEQlR3vhkDpL7w==",
+  "dgSpecHash": "g/CrVfxnYYwLGcZRO8+UA/i2T8qEUGNnOWl2UiVJ7fTWLAilObNLkaxDGmfh4QL8gir5ofXIwC3mLRiVQ/PlkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\akadz\\Desktop\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
+  "projectFilePath": "C:\\Users\\akadz\\Documents\\GitHub\\Assignment-Internship-1\\Events.Backend\\Events.Domain\\Events.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

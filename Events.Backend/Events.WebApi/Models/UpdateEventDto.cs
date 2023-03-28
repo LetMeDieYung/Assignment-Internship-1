@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Events.Application.Common.Mappings;
 using Events.Application.Events.Commands.UpdateEvent;
-using Microsoft.EntityFrameworkCore;
 
 namespace Events.WebApi.Models
 {

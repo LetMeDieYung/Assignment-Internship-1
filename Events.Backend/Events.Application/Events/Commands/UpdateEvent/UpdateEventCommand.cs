@@ -1,5 +1,4 @@
-﻿using System;
-using MediatR;
+﻿using MediatR;
 namespace Events.Application.Events.Commands.UpdateEvent
 {
     public class UpdateEventCommand : IRequest, IRequest<Unit>
@@ -11,5 +10,6 @@ namespace Events.Application.Events.Commands.UpdateEvent
         public string? Description { get; set; }
         public Guid ImageId { get; set; }
         public Guid SpaceId { get; set; }
+        public int Tickets { get; set; }
     }
 }

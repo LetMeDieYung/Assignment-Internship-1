@@ -1,7 +1,3 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using System;
 using Events.Persistence;
 
 namespace Events.WebApi
@@ -15,15 +11,11 @@ namespace Events.WebApi
             using (var scope = host.Services.CreateScope())
             {
                 var serviceProvider = scope.ServiceProvider;
-                try
-                {
+                
                     var context = serviceProvider.GetRequiredService<EventsDbContext>();
                     DbInitializer.Initialize(context);
-                }
-                catch (Exception exception)
-                {
-                    
-                }
+                
+                
             }
 
             host.Run();

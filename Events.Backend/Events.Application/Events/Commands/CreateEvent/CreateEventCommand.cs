@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 
 namespace Events.Application.Events.Commands.CreateEvent
 {
@@ -16,5 +11,6 @@ namespace Events.Application.Events.Commands.CreateEvent
         public string? Description { get; set; }
         public Guid ImageId { get; set; }
         public Guid SpaceId { get; set; }
+        public int Tickets { get; set; }
     }
 }

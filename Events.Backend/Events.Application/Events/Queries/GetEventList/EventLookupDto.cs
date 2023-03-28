@@ -1,11 +1,5 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Events.Application.Common.Mappings;
-using MediatR;
 using Events.Domain;
 
 namespace Events.Application.Events.Quaries.GetEventList
@@ -19,6 +13,7 @@ namespace Events.Application.Events.Quaries.GetEventList
         public DateTime EndDateTime { get; set; }
         public Guid ImageId { get; set; }
         public Guid SpaceId { get; set; }
+        public int Tickets { get; set; }
         public void Mapping(Profile profile)
         {
             profile.CreateMap<Event, EventLookupDto>()
@@ -28,7 +23,8 @@ namespace Events.Application.Events.Quaries.GetEventList
                 .ForMember(eventDto => eventDto.StartDateTime, opt => opt.MapFrom(newEvent => newEvent.StartDateTime))
                 .ForMember(eventDto => eventDto.EndDateTime, opt => opt.MapFrom(newEvent => newEvent.EndDateTime))
                 .ForMember(eventDto => eventDto.ImageId, opt => opt.MapFrom(newEvent => newEvent.ImageId))
-                .ForMember(eventDto => eventDto.SpaceId, opt => opt.MapFrom(newEvent => newEvent.SpaceId));
+                .ForMember(eventDto => eventDto.SpaceId, opt => opt.MapFrom(newEvent => newEvent.SpaceId))
+                .ForMember(eventDto => eventDto.Tickets, opt => opt.MapFrom(newEvent => newEvent.Tickets));
         }
     }
 }
