@@ -1,8 +1,4 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using Events.Application.Common.Exceptions;
+﻿using Events.Application.Common.Exceptions;
 using MediatR;
 using Events.Application.Interfaces;
 using Events.Domain;

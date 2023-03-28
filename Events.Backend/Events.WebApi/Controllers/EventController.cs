@@ -6,10 +6,6 @@ using Events.Application.Events.Commands.CreateEvent;
 using Events.Application.Events.Commands.DeleteCommand;
 using Events.Application.Events.Commands.UpdateEvent;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Update.Internal;
-using System.Net.Http.Headers;
-using Newtonsoft.Json;
 
 namespace Events.WebApi.Controllers
 {

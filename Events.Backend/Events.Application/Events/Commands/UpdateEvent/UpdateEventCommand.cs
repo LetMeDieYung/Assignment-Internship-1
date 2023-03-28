@@ -1,5 +1,4 @@
-﻿using System;
-using MediatR;
+﻿using MediatR;
 namespace Events.Application.Events.Commands.UpdateEvent
 {
     public class UpdateEventCommand : IRequest, IRequest<Unit>

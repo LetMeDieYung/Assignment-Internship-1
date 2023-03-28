@@ -1,5 +1,4 @@
-﻿using System.Diagnostics.Tracing;
-using AutoMapper;
+﻿using AutoMapper;
 using Events.Application.Common.Mappings;
 using Events.Application.Events.Commands.CreateEvent;
 using System.ComponentModel.DataAnnotations;
